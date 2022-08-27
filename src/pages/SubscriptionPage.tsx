@@ -6,7 +6,7 @@ import axios from 'axios'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-const baseUrl = 'http://localhost:3001'
+const baseUrl = 'https://Tools.gohanpeixe.repl.co'
 
 
 const SubscriptionPage = () => {
