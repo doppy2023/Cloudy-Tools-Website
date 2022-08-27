@@ -18,10 +18,11 @@ const SubscriptionPage = () => {
 
   if(!code){
     return(
-      <div>
-        <h1 style= {{color: 'white'}}>
-          You're not supposed to be here
-        </h1>
+      <div className='center2'>
+        <h1 style= {{color: 'white'}}>Please login again.</h1>
+        <button className= "button2" onClick={() => {navigate('/')}}>
+          Click here
+        </button>
       </div>
     )
   }
